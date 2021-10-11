@@ -1,0 +1,21 @@
+Package: geronimo
+Type: Package
+Title: classifying_customers
+Version: 0.1.0
+Author: Andy Yang
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: multiserver is a collection of functions designed to test customers queing in a first come and first serve system. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
